@@ -1,0 +1,96 @@
+
+    #background{
+        width: 100%;
+        height: 800px;
+        background-image: url(back.jpg);
+        background-repeat: round;
+       
+  
+    }
+
+    #banner{
+        width: 85%;
+        height: 200px;
+        background-image: url(yoga-day-banner.jpg);
+        background-repeat: round;
+        margin: auto;
+      
+  
+    }
+    #flooter{
+        height: 75px;
+        width: 85%;
+        margin: auto;
+        background-color: rgb(151, 151, 151);
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        line-height: 70px;
+    }
+
+    #textbag{
+        height: 500px;
+        width: 85%;
+        margin: auto;
+        background-color: rgb(201, 201, 201);
+
+    }   
+
+    #menu{
+        height: 500px;
+        width: 20%;
+        background-color: rgb(51, 50, 50);
+
+    }
+
+
+    #part{
+        width: 80%;
+        height: 520px;
+       float: right;
+    }
+
+
+    #text{
+        font-size: 18px;
+        width: 650px;
+        height: 500px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        float: right;
+        text-align: center;
+        margin: 5px;
+    }
+    #resim{
+        width: 300px;
+        height: 300px;
+        background-image: url(yoga.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+
+    #menu a {
+padding: 6px 8px 16px;
+text-decoration: none;
+font-size: 20px;
+color: #818181;
+display: block;
+}
+
+#menu a:hover {
+color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+#menu {padding-top: 15px;}
+#menu a {font-size: 18px;}
+}
+    
+
+
+

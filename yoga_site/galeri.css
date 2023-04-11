@@ -1,0 +1,158 @@
+
+    #background{
+        width: 100%;
+        height: 800px;
+        background-image: url(back.jpg);
+        background-repeat: round;
+       
+  
+    }
+
+    #banner{
+        width: 85%;
+        height: 200px;
+        background-image: url(yoga-day-banner.jpg);
+        background-repeat: round;
+        margin: auto;
+      
+  
+    }
+    #flooter{
+        height: 75px;
+        width: 85%;
+        margin: auto;
+        background-color: rgb(151, 151, 151);
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        line-height: 25px;
+    }
+
+    #textbag{
+        height: 500px;
+        width: 85%;
+        margin: auto;
+        background-color: rgb(201, 201, 201);
+
+    }   
+
+    #menu{
+        height: 500px;
+        width: 20%;
+        background-color: rgb(51, 50, 50);
+
+    }
+
+
+    #part{
+        width: 80%;
+        height: 520px;
+       float: right;
+    }
+
+
+    #resim1{
+        width: 200px;
+        height: 200px;
+        background-image: url(3833683.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+
+    #resim2{
+        width: 200px;
+        height: 200px;
+        background-image: url(3869796.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+
+    #resim3{
+        width: 200px;
+        height: 200px;
+        background-image: url(3885219.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+
+    #resim4{
+        width: 200px;
+        height: 200px;
+        background-image: url(3888668.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+    
+    #resim5{
+        width: 200px;
+        height: 200px;
+        background-image: url(5305732.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+
+    #resim6{
+        width: 200px;
+        height: 200px;
+        background-image: url(3856639.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+
+    #resim7{
+        width: 200px;
+        height: 200px;
+        background-image: url(3923515.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+
+    #resim8{
+        width: 200px;
+        height: 200px;
+        background-image: url(5297677.jpg);
+        background-repeat: round;
+        float: left;
+        margin: 15px;
+       
+    }
+
+
+    #menu a {
+padding: 6px 8px 16px;
+text-decoration: none;
+font-size: 20px;
+color: #818181;
+display: block;
+}
+
+#menu a:hover {
+color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+#menu {padding-top: 15px;}
+#menu a {font-size: 18px;}
+}
+    
+
+
+
